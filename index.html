@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score keeper</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <img src="./pic.jpg" alt="volly pic" class="hearderPic">
+        </div>
+
+        <h2>Score Keeper</h2> 
+
+        <hr>
+        <div class="subContainer">
+                <div class="scoreContainer">
+                    <span class="t1 score">0</span>to<span class="t2 score">0</span>
+                </div>
+                <p>Press below buttons to change the score</p>
+                <h3>Playing to </h3>
+                 <select name="" id="maxScore">
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+
+
+         </div>
+
+        <div class="btns">
+            <button class="scoreBtn" id="team1Btn">+1 team 1</button>
+            <button class="scoreBtn " id="team2Btn">+1 team 2</button>
+            <button class="scoreBtn" id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
